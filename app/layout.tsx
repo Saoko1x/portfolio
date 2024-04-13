@@ -10,15 +10,15 @@ import { SandpackCSS } from './blog/[slug]/sandpack';
 export const metadata: Metadata = {
   metadataBase: new URL('https://leerob.io'),
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Jorge Montañez',
+    template: '%s | Jorge Montañez',
   },
-  description: 'Developer, writer, and creator.',
+  description: 'Developer, SCRUM Master, and gamer.',
   openGraph: {
-    title: 'Lee Robinson',
-    description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
+    title: 'Jorge Montañez',
+    description: 'Developer, SCRUM Master, and gamer.',
+    url: 'https://saoko.dev',
+    siteName: 'Jorge Montañez',
     locale: 'en_US',
     type: 'website',
   },
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Lee Robinson',
+    title: 'Jorge Montañez',
     card: 'summary_large_image',
   },
   verification: {
