@@ -1,28 +1,64 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Work',
   description: 'A summary of my work and contributions.',
 };
 
-async function Stars() {
-  let res = await fetch('https://api.github.com/repos/vercel/next.js');
-  let json = await res.json();
-  let count = Math.round(json.stargazers_count / 1000);
-  return `${count}k stars`;
-}
-
 export default function WorkPage() {
   return (
     <section>
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">my work</h1>
+      <p className="prose prose-neutral dark:prose-invert">
+        I've had the privilege of contributing to a diverse array of projects
+        that have not only sharpened my skills but also deepened my passion for
+        front-end and blockchain development. Here are a few highlights from my
+        professional journey:
+      </p>
+
+      <div className="prose prose-neutral dark:prose-invert">
+        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+        <h2 className="font-medium text-xl mb-1 tracking-tighter">
+          Freelancer
+        </h2>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+          Just me
+        </p>
+        <p>
+          As a freelancer, I work with Next.js, React, React Native, Expo, and
+          frontend technologies because I am passionate about creating perfect,
+          revolutionary, innovative, and pixel-perfect designs. This dedication
+          to excellence in design is a core component of my approach, ensuring
+          that every project I undertake is both aesthetically pleasing and
+          functionally superior.
+        </p>
+        <ul>
+          <li>
+            One of my most memorable projects as a freelancer was collaborating
+            with a prominent e-commerce platform to revamp their user interface
+            and enhance the overall user experience. By implementing
+            cutting-edge design principles and leveraging the latest front-end
+            technologies, I was able to deliver a visually striking, highly
+            intuitive interface that significantly boosted user engagement and
+            conversion rates.
+          </li>
+          <li>
+            Additionally, my expertise in React Native enabled me to develop a
+            groundbreaking mobile application for a leading healthcare provider,
+            streamlining patient data management and enhancing the efficiency of
+            medical professionals. This innovative solution not only optimized
+            workflow processes but also improved patient outcomes, thus
+            underscoring the transformative power of technology in the
+            healthcare sector.
+          </li>
+        </ul>
+      </div>
       <div className="prose prose-neutral dark:prose-invert">
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">The Zen</h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">COO</p>
         <p>
-          Joining <a href="hhttps://www.the-zen.dev/">The Zen</a> was a pivotal
+          Joining <a href="https://www.the-zen.dev/">The Zen</a> was a pivotal
           moment in my career journey, where I embraced the challenge of driving
           business growth through strategic guidance and innovative solutions
           across a diverse array of projects. From the outset, I immersed myself

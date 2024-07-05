@@ -13,10 +13,10 @@ export const metadata: Metadata = {
     default: 'Jorge Montañez',
     template: '%s | Jorge Montañez',
   },
-  description: 'Developer, SCRUM Master, and gamer.',
+  description: 'Front-end developer, Project Manager passionate and gamer.',
   openGraph: {
     title: 'Jorge Montañez',
-    description: 'Developer, SCRUM Master, and gamer.',
+    description: 'Front-end developer, Project Manager passionate and gamer.',
     url: 'https://saoko.dev',
     siteName: 'Jorge Montañez',
     locale: 'en_US',

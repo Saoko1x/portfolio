@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import coding from 'public/images/home/coding.jpeg';
-import coding2 from 'public/images/home/coding2.jpg';
 import me from 'public/images/home/me.jpeg';
 import meandnathan from 'public/images/home/meandnathan.jpeg';
 import meandnathan2 from 'public/images/home/meandnathan2.jpg';
@@ -25,7 +24,8 @@ export default function Page() {
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
         I'm a software engineer based in Chihuahua Mexico. I'm passionate about
-        blockchain, web3, and cryptocurrency. I'm currently CTO at{' '}
+        front-end development, design, and the future of the web like web3. I'm
+        currently a freelancer working at my own company{' '}
         <span className="not-prose">
           <Badge href="https://www.the-zen.dev/">
             <svg
@@ -103,6 +103,29 @@ export default function Page() {
             priority
             className="rounded-lg object-cover"
           />
+        </div>
+      </div>
+      <div className="prose prose-neutral dark:prose-invert">
+        <p>
+          Checkout my links to learn more about me and my work. If you want to
+          work together, feel free to reach out!
+        </p>
+      </div>
+      <div className="my-8 flex h-14 w-full flex-row space-x-2 overflow-x-auto">
+        <div className="flex items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">
+          <a href="https://github.com/saoko1x" target="_blank">
+            Github
+          </a>
+        </div>
+        <div className="flex items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">
+          <a href="https://linkedin.com/in/saoko1x" target="_blank">
+            LinkedIn
+          </a>
+        </div>
+        <div className="flex items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">
+          <a href="https://x.com/saoko1x" target="_blank">
+            Twitter
+          </a>
         </div>
       </div>
     </section>
