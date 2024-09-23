@@ -8,19 +8,22 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import { SandpackCSS } from './blog/[slug]/sandpack';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://leerob.io'),
+  metadataBase: new URL('https://saoko.dev'),
   title: {
     default: 'Jorge Montañez',
     template: '%s | Jorge Montañez',
   },
-  description: 'Front-end developer, Project Manager passionate and gamer.',
+  description: 'Fullstack developer, Project Manager passionate and gamer.',
   openGraph: {
     title: 'Jorge Montañez',
-    description: 'Front-end developer, Project Manager passionate and gamer.',
+    description: 'Fullstack developer, Project Manager passionate and gamer.',
     url: 'https://saoko.dev',
     siteName: 'Jorge Montañez',
     locale: 'en_US',
     type: 'website',
+    images: [
+      'https://utfs.io/f/pypyrj2zEPRNRcuMtVPfVW7N20To4lGZE9S6bq3FdyPYXztC',
+    ],
   },
   robots: {
     index: true,
