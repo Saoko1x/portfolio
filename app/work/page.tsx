@@ -17,6 +17,51 @@ export default function WorkPage() {
       </p>
       <div className="prose prose-neutral dark:prose-invert">
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+        <Link href={'https://www.tienditamaker.com/'} target="_blank">
+          <h2 className="font-medium text-xl mb-1 tracking-tighter">
+            Tiendita Maker
+          </h2>
+        </Link>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+          Founder
+        </p>
+        <p>
+          Creating TienditaMaker was a defining milestone in my journey as a
+          developer and entrepreneur. I identified the growing demand for
+          localized e-commerce solutions and embraced the challenge of designing
+          a platform that empowers businesses to create their own online stores
+          while seamlessly connecting with Mexican suppliers. From concept to
+          execution, I focused on delivering a user-centric experience with
+          scalable and modern technologies.
+        </p>
+        <ul>
+          <li>
+            Designed and developed the platform using a robust tech stack
+            including <strong>Next.js </strong>
+            for the frontend and <strong>Supabase</strong> for backend
+            operations, ensuring performance and scalability across all
+            features.
+          </li>
+          <li>
+            Created a unique system that connects online stores with Mexican
+            suppliers, supporting local businesses while offering a distinct
+            advantage to TienditaMaker users in the e-commerce ecosystem.
+          </li>
+          <li>
+            Integrated <strong>own CMS</strong> to provide customers with
+            customizable templates, enabling them to select and personalize
+            store designs post-purchase for a smooth and intuitive setup
+            process.
+          </li>
+          <li>
+            Focused on a strategic one-time payment model with enhanced
+            features, prioritizing affordability and customer satisfaction while
+            driving long-term adoption of the platform.
+          </li>
+        </ul>
+      </div>
+      <div className="prose prose-neutral dark:prose-invert">
+        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <Link href={'https://www.the-zen.dev/'} target="_blank">
           <h2 className="font-medium text-xl mb-1 tracking-tighter">The Zen</h2>
         </Link>
