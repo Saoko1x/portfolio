@@ -24,10 +24,10 @@ export default function Page() {
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
         I'm a software engineer based in Chihuahua Mexico. I'm passionate about
-        front-end development, design, and the future of the web like web3. I'm
-        currently a freelancer working at my own company{' '}
+        web development, mindfulness, and gaming. I'm currently a freelancer
+        working at my own startup{' '}
         <span className="not-prose">
-          <Badge href="https://www.the-zen.dev/">
+          <Badge href="https://www.tienditamaker.com">
             <svg
               width="13"
               height="11"
@@ -37,10 +37,11 @@ export default function Page() {
             >
               <use href="/sprite.svg#vercel" />
             </svg>
-            The Zen
+            Tiendita Maker
           </Badge>
         </span>
-        , where I help build the future of work.
+        , an online store creator that connects businesses with Mexican
+        suppliers.
       </p>
 
       <div className="my-8 columns-2 gap-4 sm:columns-3">
