@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import coding from 'public/images/home/coding.jpeg';
+import dj from 'public/images/home/dj.jpg';
 import me from 'public/images/home/me.jpeg';
-import meandnathan from 'public/images/home/meandnathan.jpeg';
-import meandnathan2 from 'public/images/home/meandnathan2.jpg';
-import methezen from 'public/images/home/methezen.jpeg';
 import mecelebrating from 'public/images/home/mecelebrating.jpeg';
+import fichaje from 'public/images/home/fichaje.jpg';
+import pitch from 'public/images/home/pitch.jpg';
+import microsoft from 'public/images/home/microsoft.jpg';
 
 function Badge(props) {
   return (
@@ -48,7 +48,7 @@ export default function Page() {
         <div className="relative mb-4 h-40">
           <Image
             alt="Me speaking on stage at React Summit about the future of Next.js"
-            src={meandnathan2}
+            src={fichaje}
             fill
             sizes="(max-width: 768px) 213px, 33vw"
             priority
@@ -68,7 +68,7 @@ export default function Page() {
         <div className="relative h-40 sm:mb-4 sm:h-80">
           <Image
             alt="Me standing on stage at Reactathon delivering the keynote"
-            src={me}
+            src={microsoft}
             fill
             sizes="(max-width: 768px) 213px, 33vw"
             priority
@@ -78,7 +78,7 @@ export default function Page() {
         <div className="relative mb-4 h-40 sm:mb-0">
           <Image
             alt="Me standing on stage at SmashingConf giving a talk about my optimism for the web"
-            src={meandnathan}
+            src={me}
             fill
             sizes="(max-width: 768px) 213px, 33vw"
             priority
@@ -88,7 +88,7 @@ export default function Page() {
         <div className="relative mb-4 h-40">
           <Image
             alt="Me and Guillermo Rauch on stage for Vercel Ship, answering questions from the Next.js community"
-            src={methezen}
+            src={pitch}
             fill
             sizes="(max-width: 768px) 213px, 33vw"
             priority
@@ -98,7 +98,7 @@ export default function Page() {
         <div className="relative h-80">
           <Image
             alt="My badge on top of a pile of badges from a Vercel meetup we held"
-            src={coding}
+            src={dj}
             fill
             sizes="(min-width: 768px) 213px, 33vw"
             priority
