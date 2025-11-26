@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Fullstack Developer turned Entrepreneur. I love learning new technologies and building products that solve real problems. Currently focused on data science, AI, and building products.",
   summary:
-    "At the age of 19, I started my career as a Fullstack Developer, working with various technologies such as React, Next.js, Typescript, Node.js, Java and SQL. Over the years, I have worked on numerous projects, including building a Blockchain SaaS, developing a custom web applications for companies, and creating a mobile app using React Native with Expo. My passion for technology has led me to explore data science and AI, where I am currently focused on building products that leverage these technologies.",
+    "At the age of 19, I started my career as a Fullstack Developer, working with various technologies such as React, Next.js, Java Typescript, Node.js, and SQL. Over the years, I have worked on numerous projects, including building a Blockchain SaaS, developing a custom web applications for companies, and creating a mobile app using React Native with Expo. My passion for technology has led me to explore data science and AI, where I am currently focused on building products that leverage these technologies.",
   avatarUrl: "https://res.cloudinary.com/do3k4ocu4/image/upload/v1750472147/anoyx8nrebvmuwtyarc2.jpg",
   skills: [
     "React",
@@ -23,9 +23,6 @@ export const DATA = {
     "Prisma",
     "TailwindCSS",
     "Shadcn UI",
-    "Docker",
-    "Java",
-    "Spring Boot",
     "Python",
   ],
   navbar: [
@@ -155,9 +152,34 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Staminapp",
+      href: "https://staminapp-ten.vercel.app/",
+      dates: "September 2025 - Present",
+      active: true,
+      description:
+        "Developed Staminapp, a health optimization app that breaks stress-energy loops using Apple Health data. The platform analyzes sleep patterns, HRV, and activity metrics to deliver personalized interventions that improve Body Battery recovery by 40%+ in 14 days. Built with React Native, SQLite, and HealthKit integration.",
+      technologies: [
+        "React Native with Expo",
+        "Next.js",
+        "Typescript",
+        "Supabase",
+        "TailwindCSS",
+        "Stripe",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://staminapp-ten.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://res.cloudinary.com/do3k4ocu4/image/upload/v1764128345/Screenshot_2025-11-25_at_9.37.02_p.m._lttik9.png",
+    },
+    {
       title: "Tiendita Maker",
-      href: "https://www.tienditamaker.com/",
-      dates: "September 2024 - January 2025",
+      href: "https://tienditamaker.vercel.app/",
+      dates: "September 2024 - September 2025",
       active: true,
       description:
         "Developed a custom e-commerce platform to sell drop-shipping mexican products. The platform allows users to browse products, add them to their cart, and complete purchases using Stripe for payment processing.",
@@ -185,7 +207,7 @@ export const DATA = {
     {
       title: "Promostica",
       href: "https://promostica.vercel.app/",
-      dates: "January 2025 - Present",
+      dates: "January 2025 - April 2025",
       active: true,
       description:
         "Developed a prediction market platform where users can create and participate in prediction markets on various topics. The platform allows users to create markets, place bets, and track their performance over time.",
