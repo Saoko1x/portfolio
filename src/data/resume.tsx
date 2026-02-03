@@ -182,7 +182,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://res.cloudinary.com/do3k4ocu4/image/upload/v1764128345/Screenshot_2025-11-25_at_9.37.02_p.m._lttik9.png",
+      image: "https://051fovaubk.ufs.sh/f/zH7yCcM4NHLCMysm0PeTWygGVD74UdXNbKZnHpAls2m9riSB",
       video:
         "",
     },
@@ -265,7 +265,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://res.cloudinary.com/do3k4ocu4/image/upload/v1750471076/zbaakyfq8qjmvwpdvde3.png",
+      image: "https://051fovaubk.ufs.sh/f/zH7yCcM4NHLC7WfJTJuihRX4B0xPYDUragNjfqbt9nk3IesC",
       video: "",
     },
     {
@@ -319,7 +319,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://res.cloudinary.com/do3k4ocu4/image/upload/v1750471481/dir0my3ekjsinxcomdpa.png",
+      image: "https://051fovaubk.ufs.sh/f/zH7yCcM4NHLC0lvJeGCOEngYWeNuTM2t1Sm87j4PVrGsHLdk",
       video:
         "",
     },
