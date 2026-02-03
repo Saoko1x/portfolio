@@ -11,7 +11,7 @@ export const DATA = {
     "Fullstack Developer turned Entrepreneur. I love learning new technologies and building products that solve real problems. Currently focused on data science, AI, and building products.",
   summary:
     "At the age of 19, I started my career as a Fullstack Developer, working with various technologies such as React, Next.js, Java Typescript, Node.js, and SQL. Over the years, I have worked on numerous projects, including building a Blockchain SaaS, developing a custom web applications for companies, and creating a mobile app using React Native with Expo. My passion for technology has led me to explore data science and AI, where I am currently focused on building products that leverage these technologies.",
-  avatarUrl: "https://res.cloudinary.com/do3k4ocu4/image/upload/v1750472147/anoyx8nrebvmuwtyarc2.jpg",
+  avatarUrl: "https://051fovaubk.ufs.sh/f/zH7yCcM4NHLCEoDayxzOc8GAyxVRJi5WrnTtfYIalKZDzqgh",
   skills: [
     "React",
     "Next.js",
@@ -136,6 +136,14 @@ export const DATA = {
     {
       school: "Escuelita Maker",
       href: "https://escuelitamaker.com/",
+      degree: "batch 4 ",
+      logoUrl: "https://mir-s3-cdn-cf.behance.net/projects/404/fda4a3211820623.672a4c78a3632.jpg",
+      start: "2025",
+      end: "2026",
+    },
+    {
+      school: "Escuelita Maker",
+      href: "https://escuelitamaker.com/",
       degree: "batch 2 ",
       logoUrl: "https://mir-s3-cdn-cf.behance.net/projects/404/fda4a3211820623.672a4c78a3632.jpg",
       start: "2024",
@@ -153,7 +161,7 @@ export const DATA = {
   projects: [
     {
       title: "Staminapp",
-      href: "https://staminapp-ten.vercel.app/",
+      href: "https://staminapp.fit/",
       dates: "September 2025 - Present",
       active: true,
       description:
@@ -170,11 +178,38 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://staminapp-ten.vercel.app/",
+          href: "https://staminapp.fit/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "https://res.cloudinary.com/do3k4ocu4/image/upload/v1764128345/Screenshot_2025-11-25_at_9.37.02_p.m._lttik9.png",
+      video:
+        "",
+    },
+    {
+      title: "RWLM Test",
+      href: "https://rlwm-task.vercel.app/demo",
+      dates: "September 2025 - November 2025",
+      active: true,
+      description:
+        "Developed RLWM Task, a web application that allows users to take cognitive assessments based on the Collins & Frank (2012) research protocol, measuring the interaction between reinforcement learning and working memory through stimulus-response association tasks.",
+      technologies: [
+        "React Native with Expo",
+        "Next.js",
+        "Typescript",
+        "Supabase",
+        "TailwindCSS",
+        "Stripe",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://rlwm-task.vercel.app/demo",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://051fovaubk.ufs.sh/f/zH7yCcM4NHLChMJQxT0N0zb8SWeZJKrLOuVMXvB21psUHkGD",
       video:
         "",
     },
@@ -257,8 +292,8 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://res.cloudinary.com/do3k4ocu4/video/upload/f_auto:video,q_auto/v1/bitafitness/ss8grtetpcaz2sc5msjg",
+      image: "https://etqrx1247q.ufs.sh/f/83953036-478d-417a-b48e-53c46979d128-gobr2x.jpg",
+      video: "",
     },
     {
       title: "Mixhub!",
@@ -280,7 +315,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://mixhub.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
