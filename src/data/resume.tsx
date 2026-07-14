@@ -8,22 +8,24 @@ export const DATA = {
   location: "Chihuahua, MX",
   locationLink: "https://www.google.com/maps/place/chihuahua+mx",
   description:
-    "Fullstack Developer turned Entrepreneur. I love learning new technologies and building products that solve real problems. Currently focused on data science, AI, and building products.",
+    "I build web & mobile apps for health, fitness, and local businesses — and turn their data into decisions.",
   summary:
-    "At the age of 19, I started my career as a Fullstack Developer, working with various technologies such as React, Next.js, Java Typescript, Node.js, and SQL. Over the years, I have worked on numerous projects, including building a Blockchain SaaS, developing a custom web applications for companies, and creating a mobile app using React Native with Expo. My passion for technology has led me to explore data science and AI, where I am currently focused on building products that leverage these technologies.",
+    "With 5+ years building web and mobile applications, I've helped fitness studios, startups, and local businesses go from idea to shipped product. I specialize in React, Next.js, and React Native, and I'm combining that with health data analysis — Apple HealthKit, Supabase, and Python — to help companies like Bita Fitness and Staminapp make sense of their users' data. I work directly with founders and business owners, focused on delivering real outcomes: more revenue managed, faster workflows, and products their customers actually use.",
   avatarUrl: "https://051fovaubk.ufs.sh/f/zH7yCcM4NHLCEoDayxzOc8GAyxVRJi5WrnTtfYIalKZDzqgh",
   skills: [
     "React",
     "Next.js",
+    "React Native (Expo)",
     "Typescript",
-    "Javascript",
     "Node.js",
-    "Expo React Native",
-    "Postgres",
+    "Python",
+    "Data Analysis",
+    "Apple HealthKit",
+    "Supabase",
+    "PostgreSQL",
     "Prisma",
     "TailwindCSS",
-    "Shadcn UI",
-    "Python",
+    "Stripe",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -129,7 +131,7 @@ export const DATA = {
       start: "January 2020",
       end: "Present",
       description:
-        "Worked as a freelance fullstack developer, building custom web applications for various clients. Technologies used include React, Next.js, Typescript, Node.js, and PostgreSQL. Projects included e-commerce platforms, content management systems, and custom APIs.",
+        "Independent contractor building web and mobile apps for health & fitness businesses, local companies, and startups across Mexico. Delivered subscription platforms, e-commerce stores, SaaS MVPs, and health data tools. Focused on shipping fast and making sure clients can operate their product without depending on me for every change.",
     },
   ],
   education: [
@@ -165,15 +167,15 @@ export const DATA = {
       dates: "September 2025 - Present",
       active: true,
       description:
-        "Developed Staminapp, a health optimization app that breaks stress-energy loops using Apple Health data. The platform analyzes sleep patterns, HRV, and activity metrics to deliver personalized interventions that improve Body Battery recovery by 40%+ in 14 days. Built with React Native, SQLite, and HealthKit integration.",
+        "Health optimization platform that analyzes Apple Health data — sleep, HRV, and activity — to deliver personalized recovery interventions. Users see 40%+ improvement in Body Battery recovery within 14 days. Built a real-time data pipeline combining HealthKit with behavioral analysis to surface actionable insights.",
       technologies: [
         "React Native with Expo",
         "Next.js",
         "Typescript",
         "Supabase",
+        "Apple HealthKit",
         "TailwindCSS",
         "Stripe",
-        "Shadcn UI",
       ],
       links: [
         {
@@ -183,89 +185,6 @@ export const DATA = {
         },
       ],
       image: "https://051fovaubk.ufs.sh/f/zH7yCcM4NHLCMysm0PeTWygGVD74UdXNbKZnHpAls2m9riSB",
-      video:
-        "",
-    },
-    {
-      title: "RWLM Test",
-      href: "https://rlwm-task.vercel.app/demo",
-      dates: "September 2025 - November 2025",
-      active: true,
-      description:
-        "Developed RLWM Task, a web application that allows users to take cognitive assessments based on the Collins & Frank (2012) research protocol, measuring the interaction between reinforcement learning and working memory through stimulus-response association tasks.",
-      technologies: [
-        "React Native with Expo",
-        "Next.js",
-        "Typescript",
-        "Supabase",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://rlwm-task.vercel.app/demo",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "https://051fovaubk.ufs.sh/f/zH7yCcM4NHLChMJQxT0N0zb8SWeZJKrLOuVMXvB21psUHkGD",
-      video:
-        "",
-    },
-    {
-      title: "Tiendita Maker",
-      href: "https://tienditamaker.vercel.app/",
-      dates: "September 2024 - September 2025",
-      active: true,
-      description:
-        "Developed a custom e-commerce platform to sell drop-shipping mexican products. The platform allows users to browse products, add them to their cart, and complete purchases using Stripe for payment processing.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.tienditamaker.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://utfs.io/f/rF2DW7sv5SQ0D1RZ5Qh3dVtRoPKUeYIrbO5LizFgC7Bsyl9p",
-    },
-    {
-      title: "Promostica",
-      href: "https://promostica.vercel.app/",
-      dates: "January 2025 - April 2025",
-      active: true,
-      description:
-        "Developed a prediction market platform where users can create and participate in prediction markets on various topics. The platform allows users to create markets, place bets, and track their performance over time.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://promostica.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "https://051fovaubk.ufs.sh/f/zH7yCcM4NHLC7WfJTJuihRX4B0xPYDUragNjfqbt9nk3IesC",
       video: "",
     },
     {
@@ -274,7 +193,7 @@ export const DATA = {
       dates: "April 2023 - September 2023",
       active: true,
       description:
-        "Developed a custom web application for Bita Fitness, a fitness and wellness company, to manage their customer subscriptions and class schedules. The application was built using Next.js, Typescript, and Node.js, and integrated with Stripe for payment processing. The application allows customers to manage their subscriptions, book classes, and track their fitness progress.",
+        "Built a subscription and class management platform for a local fitness studio, replacing their manual spreadsheet process with automated billing via Stripe. Members can self-manage subscriptions, book classes, and track progress — cutting admin time and increasing on-time renewals.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -282,7 +201,6 @@ export const DATA = {
         "Prisma",
         "TailwindCSS",
         "Shadcn UI",
-        "Magic UI",
         "Stripe",
       ],
       links: [
@@ -296,12 +214,88 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Tiendita Maker",
+      href: "",
+      dates: "September 2024 - September 2025",
+      active: true,
+      description:
+        "Full e-commerce platform for a local product store with product catalog, cart, and Stripe checkout. Designed to be easy to manage without technical knowledge — the owner handles inventory and orders through a simple dashboard.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Stripe",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://utfs.io/f/rF2DW7sv5SQ0D1RZ5Qh3dVtRoPKUeYIrbO5LizFgC7Bsyl9p",
+    },
+    {
+      title: "Promostica",
+      href: "https://promostica.vercel.app/",
+      dates: "January 2025 - April 2025",
+      active: true,
+      description:
+        "Prediction market platform where users create and participate in markets on any topic, place bets, and track performance over time. Includes real-time odds calculation and a leaderboard — a fintech experiment in crowdsourced forecasting.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Stripe",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://promostica.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://051fovaubk.ufs.sh/f/zH7yCcM4NHLC7WfJTJuihRX4B0xPYDUragNjfqbt9nk3IesC",
+      video: "",
+    },
+    {
+      title: "RWLM Test",
+      href: "https://rlwm-task.vercel.app/demo",
+      dates: "September 2025 - November 2025",
+      active: true,
+      description:
+        "Web-based cognitive assessment tool based on the Collins & Frank (2012) research protocol, measuring how reinforcement learning and working memory interact. Built for researchers to collect and analyze stimulus-response data at scale.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Supabase",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://rlwm-task.vercel.app/demo",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://051fovaubk.ufs.sh/f/zH7yCcM4NHLChMJQxT0N0zb8SWeZJKrLOuVMXvB21psUHkGD",
+      video: "",
+    },
+    {
       title: "Mixhub!",
       href: "https://mixhub.vercel.app/",
       dates: "April 2023 - March 2024",
       active: true,
       description:
-        "Developed a platform with a focus on connecting artists with users through music, tokenizing their work and allowing users to support them through donations. The platform allows users to create and share music mixes, discover new artists, and support their favorite musicians.",
+        "Music platform that connects artists with listeners by tokenizing their work on Solana, allowing fans to support musicians directly. Artists can share mixes, build a following, and receive donations via NFT-backed ownership.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -320,8 +314,7 @@ export const DATA = {
         },
       ],
       image: "https://051fovaubk.ufs.sh/f/zH7yCcM4NHLC0lvJeGCOEngYWeNuTM2t1Sm87j4PVrGsHLdk",
-      video:
-        "",
+      video: "",
     },
   ],
   hackathons: [

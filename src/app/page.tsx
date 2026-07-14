@@ -49,6 +49,35 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
+      <section id="services">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 4.5}>
+            <h2 className="text-xl font-bold">What I Build</h2>
+          </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 4.7}>
+            <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+              <div className="rounded-lg border p-4 space-y-1.5">
+                <p className="font-semibold text-sm">Web & Mobile Apps</p>
+                <p className="text-xs text-muted-foreground">
+                  Custom platforms for health, fitness, and local businesses — React, Next.js, React Native.
+                </p>
+              </div>
+              <div className="rounded-lg border p-4 space-y-1.5">
+                <p className="font-semibold text-sm">Health Data Analysis</p>
+                <p className="text-xs text-muted-foreground">
+                  Apple Health, wearables, and user activity turned into dashboards and personalized insights.
+                </p>
+              </div>
+              <div className="rounded-lg border p-4 space-y-1.5">
+                <p className="font-semibold text-sm">SaaS & MVP Development</p>
+                <p className="text-xs text-muted-foreground">
+                  From idea to launch. I help founders and business owners ship their first product fast.
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+        </div>
+      </section>
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
@@ -206,14 +235,14 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
+                Have a project in mind? I work with health & fitness businesses and local companies to build their digital products.{" "}
                 <Link
-                  href={DATA.contact.social.X.url}
+                  href={`mailto:${DATA.contact.email}`}
                   className="text-blue-500 hover:underline"
                 >
-                  with a direct question on twitter
+                  Send me an email
                 </Link>{" "}
-                and I&apos;ll respond as soon as I can!
+                and let&apos;s talk about what you need.
               </p>
             </div>
           </BlurFade>
