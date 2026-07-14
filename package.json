@@ -22,7 +22,7 @@
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.395.0",
     "motion": "^12.7.4",
-    "next": "14.2.35",
+    "next": "^15.3.0",
     "next-themes": "^0.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -37,14 +37,23 @@
     "tailwindcss-animate": "^1.0.7",
     "unified": "^11.0.5"
   },
+  "pnpm": {
+    "overrides": {
+      "glob": ">=10.5.0",
+      "flatted": ">=3.4.2",
+      "brace-expansion": ">=2.0.3",
+      "yaml": ">=2.8.3",
+      "@typescript-eslint/parser": "^8.0.0"
+    }
+  },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^20.17.30",
     "@types/react": "^18.3.20",
     "@types/react-dom": "^18.3.6",
     "eslint": "^8.57.1",
-    "eslint-config-next": "14.2.4",
-    "postcss": "^8.5.3",
+    "eslint-config-next": "^15.3.0",
+    "postcss": "^8.5.10",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3"
   }
