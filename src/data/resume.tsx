@@ -117,7 +117,7 @@ export const DATA = {
       title: "Fullstack Developer",
       logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQluGrLBJonvCf6SHUftes7oPjIFYChDHnIEA&s",
       start: "January 2022",
-      end: "November 2022",
+      end: "Present",
       description:
         "Developed a custom web application for Bita Fitness, a fitness and wellness company, to manage their customer subscriptions and class schedules. The application was built using Next.js, Typescript, and Node.js, and integrated with Stripe for payment processing. The application allows customers to manage their subscriptions, book classes, and track their fitness progress.",
     },
@@ -164,7 +164,7 @@ export const DATA = {
     {
       title: "Staminapp",
       href: "https://staminapp.fit/",
-      dates: "September 2025 - Present",
+      dates: "September 2025 - February 2026",
       active: true,
       description:
         "Health optimization platform that analyzes Apple Health data — sleep, HRV, and activity — to deliver personalized recovery interventions. Users see 40%+ improvement in Body Battery recovery within 14 days. Built a real-time data pipeline combining HealthKit with behavioral analysis to surface actionable insights.",
